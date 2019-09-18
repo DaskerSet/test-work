@@ -5,23 +5,20 @@
 	margin: 0;
 	padding: 0;
 }
-body {
-	
-}
 .container {
  	width: 1170px;
  	margin: 0 auto;
 }
 #pricing {
 	height: 1142px;
-	padding-top: 126px;
+	padding-top: 116px;
 	background: #f0f1f1;
 	font-family: 'Open Sans', sans-serif;
 }
 #pricing-container {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 124px;
+	margin-top: 116px;
 }
 #pricing-title {
 	text-align: center;
@@ -35,13 +32,11 @@ body {
 	width: 630px;
 	margin: 0 auto;
 	margin-top: 26px;
-
 }
 .pricing-block {
 	width: 370px;
 	height: 668px;
 	padding-top: 42px;
-	/*background-color: #fff;*/
 	background: url("../img/rectangle.jpg") #fff no-repeat;
 }
 .pricing-block:nth-child(2) {
@@ -55,7 +50,6 @@ body {
 	color: #fff;
 }
 .pricing-container_price {
-	/*display: flex;*/
 	text-align: center;
 	margin-top: 12px;
 }
@@ -76,8 +70,6 @@ body {
 }
 .pricing-block ul {
 	list-style-type: none;
-	/*display: inline-block;
-	margin: 0 auto;*/
 	margin-top: 66px;
 }
 .pricing-block li {
@@ -92,9 +84,7 @@ body {
 	font-weight: lighter;
 	font-size: 17px;
 }
-
 .pricing-container_benefits {
-	/*display: block;*/
 	margin: 0 auto;
 } 
 .order-button {
@@ -124,6 +114,6 @@ body {
 	color: #fff;
 	cursor: pointer;
 }
-.button-upper-text {
+.button-upper-text { 
 	text-transform: uppercase;
 }
