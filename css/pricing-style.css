@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	
+}
+.container {
+ 	width: 1170px;
+ 	margin: 0 auto;
+}
+#pricing {
+	height: 1142px;
+	padding-top: 126px;
+	background: #f0f1f1;
+	font-family: 'Open Sans', sans-serif;
+}
+#pricing-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 124px;
+}
+#pricing-title {
+	text-align: center;
+}
+#pricing-title h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+#pricing-title p {
+	font-size: 15px;
+	width: 630px;
+	margin: 0 auto;
+	margin-top: 26px;
+
+}
+.pricing-block {
+	width: 370px;
+	height: 668px;
+	padding-top: 42px;
+	/*background-color: #fff;*/
+	background: url("../img/rectangle.jpg") #fff no-repeat;
+}
+.pricing-block:nth-child(2) {
+	box-shadow: 0px 4px 27px -9px rgba(118,118,118,1);
+}
+.pricing-block h2 {
+	font-size: 25px;
+	text-align: center;
+}
+.pricing-block h2, .pricing-container_price {
+	color: #fff;
+}
+.pricing-container_price {
+	/*display: flex;*/
+	text-align: center;
+	margin-top: 12px;
+}
+.upper-sign {
+	font-size: 25px;
+	position: relative;
+	display: inline-block;
+	bottom: 18px;
+	margin-right: 4px;
+}
+.pricing-container_price p {
+	font-size: 50px;
+	display: inline;
+}
+.lower-sign {
+	font-size: 17px;
+	margin-left: 6px;
+}
+.pricing-block ul {
+	list-style-type: none;
+	/*display: inline-block;
+	margin: 0 auto;*/
+	margin-top: 66px;
+}
+.pricing-block li {
+
+	margin: 0 auto;
+	text-align: center;
+	width: 178px;
+	border-bottom: 1px solid #bfbfbf; 
+	padding-top: 30px;
+	padding-bottom: 12px;
+	color: #212121;
+	font-weight: lighter;
+	font-size: 17px;
+}
+
+.pricing-container_benefits {
+	/*display: block;*/
+	margin: 0 auto;
+} 
+.order-button {
+	margin: 0 auto;
+	display: block;
+	height: 56px;
+	width: 176px;	
+	margin-top: 66px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	transition: 0.5s ease;
+}
+.side-button {
+	color: #212121;
+	border: 2px solid #000;
+	background: #fff;
+}
+.middle-button {
+	color: #fff;
+	border: 2px solid #00897b;
+	background: #00897b;
+}
+.order-button:hover {
+	background: #212121;
+	border: 2px solid #212121;
+	color: #fff;
+	cursor: pointer;
+}
+.button-upper-text {
+	text-transform: uppercase;
+}
