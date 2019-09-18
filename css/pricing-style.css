@@ -5,13 +5,13 @@
 	margin: 0;
 	padding: 0;
 }
-.container {
+#pricing .container {
  	width: 1170px;
  	margin: 0 auto;
 }
 #pricing {
-	height: 1142px;
 	padding-top: 116px;
+	padding-bottom: 125px;
 	background: #f0f1f1;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -73,7 +73,6 @@
 	margin-top: 66px;
 }
 .pricing-block li {
-
 	margin: 0 auto;
 	text-align: center;
 	width: 178px;
@@ -96,7 +95,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 600;
-	transition: 0.5s ease;
+	transition: all 0.5s ease;
 }
 .side-button {
 	color: #212121;
