@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400i,600,700&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#comments {
+	background: #eaeaea;
+	padding: 100px 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#comments .container {
+	width: 838px;
+	margin: 0 auto;
+	background: #fff;
+	padding-bottom: 56px;
+}
+#comments-wrapper {
+	margin: 0 auto;
+	width: 742px;
+	padding-top: 18px;
+}
+#comments h2 {
+	font-style: italic;
+	margin-bottom: 14px;
+	font-size: 24px;
+	font-weight: 400;
+}
+img:hover {
+	cursor: pointer;
+}
+.comment-block {
+	border-top: 2px solid #dddddd;
+	width: 100%;
+	padding-top: 20px;
+}
+.comment-block:nth-child(1) {
+	padding-top: 30px;
+}
+.comment-block_flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.comment-info {
+	width: 88.4%;
+}
+.comment-stat {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.name-reply_block h3, .name-reply_block, .like-share_block, .share-block, .like-block {
+	display: inline-block;
+}
+.name-reply_block h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.post-by_sign, .comment-text, .more-comments {
+	font-size: 16px;
+	font-weight: lighter;
+}
+.reply-link, .date-link {
+	font-size: 12px;
+	font-weight: bold;
+	color: #629494;
+}
+.reply-link {
+	display: inline-block;
+	padding-left: 4px;
+}
+.reply-link:hover {
+	text-decoration: none;
+}
+.date-link {
+	display: inline-block;
+	margin-top: 6px;
+	text-decoration: none;
+}
+.like-share_block {
+	color: #585858;
+	font-weight: bold;
+	font-size: 12px;
+}
+.comment-window, .comment-text {
+	margin-top: 16px;
+}
+.comment-window {
+	padding-bottom: 14px;
+}
+.comment-text_bold {
+	font-weight: 600;
+}
+.more-comments {
+	color: #b6b6b6;
+	display: block;
+	width: 128px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 18px;
+	transition: all 0.5s ease;
+}
+.more-comments:hover {
+	cursor: pointer;
+	color: #5f5f5f;
+}
+.footer-comment {
+	border-bottom: 2px solid #dddddd;
+}
+.fa-thumbs-up:hover, .fa-share-alt:hover {
+	cursor: pointer;
+	color: #000;
+}

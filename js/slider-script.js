@@ -1,4 +1,4 @@
-let vm = new Vue({
+let vm1 = new Vue({
 	el: "#slider",
 	data: {
 		pageWidth: 760
